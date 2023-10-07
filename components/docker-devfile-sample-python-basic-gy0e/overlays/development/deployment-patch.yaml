@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: docker-devfile-sample-python-basic-gy0e
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/exd-rcerven-tenant/devfile-sample-python-basic/docker-devfile-sample-python-basic-gy0e@sha256:dcb930deb34b479a76c8d8a26b4f80dec4108c2d6d751034796bc41af63468f0
+        name: container-image
+        resources: {}
+status: {}
